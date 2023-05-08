@@ -1,0 +1,24 @@
+                        Explicações 
+
+<Text 
+        fontSize="2xl" -- Tamanho da fonte, nesse caso o texto ai de baixo
+        fontWeight="bold" -- Peso da fonte
+        color="gray.500" -- cor da fonte, esse 500 significa o tipo de gray
+        textAlign="center" -- Texto centralizado
+        mt={5} -- Distancia do texto até a imagem de cima
+      >
+        Faça login em sua conta
+
+</Text>
+
+
+<FormControl mt={3}> -- distancia que irá ocupar em relação ao elemento de cima
+          <FormControl.Label>Email</FormControl.Label>
+          <Input placeholder= 'Insira seu endereço de email'
+          size='lg' -- tamanho que ira ocupar o texto
+          w="100%"  -- Largura que irá ocupar o input na tela
+          borderRadius='lg' -- Largura do input
+          bgColor='gray.100' -- cor do input
+          shadow={3} -- sombra
+          />
+</FormControl>

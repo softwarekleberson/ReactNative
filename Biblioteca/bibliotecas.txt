@@ -1,0 +1,53 @@
+                                        Criando a aplicação
+
+-- npx create-expo-app meu-app (Criar projeto pelo terminal)
+-- cd meu-app
+-- code .
+
+-- Modifique o App.js para App.tsx;
+
+Execute no terminal e aperte Y quando aparecer a pergunta para você instalar as dependências do TypeScript:
+
+npx expo start (Extarta a aplicação)
+
+
+
+                                            Native Base
+
+Biblioteca que irá facilitar a construão do aplicativo, menus, avatar do usuario Execute
+
+yarn add native-base
+expo install react-native-svg@12.1.1
+expo install react-native-safe-area-context@3.3.2
+
+
+
+                    ----------------------------------------------------------------
+                                    Biblioteca para navegar React Native
+                    ----------------------------------------------------------------
+
+
+
+Caso de algum problema, com as dependencias
+--------------------------------------------
+npm install -g npm@latest
+npm cache clean --force
+
+
+-------------------------------------------
+npm install @react-navigation/native
+-------------------------------------------
+
+-------------------------------------------------------------------------
+npx expo install react-native-screens react-native-safe-area-context
+-------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+npm install react-native-screens react-native-safe-area-context
+-------------------------------------------------------------------------
+
+-------------------------------------------------------------------------
+npm install @react-navigation/native-stack
+--------------------------------------------------------------------------
+
+
